@@ -40,7 +40,7 @@ thead{
 	border-radius:5px;
 	cursor:pointer;
 }
-#delete{
+.delete{
 	width:90px;
 	height:30px;
 	padding:5px;

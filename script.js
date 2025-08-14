@@ -12,7 +12,7 @@ function getBookDetails(){
 	}
 	let tr=tbody.insertRow(0);
 	let deleteButton=document.createElement("button");
-	deleteButton.id="delete"
+	deleteButton.className="delete"
 	deleteButton.textContent="delete";
 	let td1=tr.insertCell();
 	td1.className="tabledata"

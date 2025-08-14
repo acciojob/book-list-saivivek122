@@ -3,14 +3,14 @@ let tbody=document.getElementById("tbody");
 let author=document.getElementById("author");
 let isbn=document.getElementById("isbn");
 let button=document.getElementById("submit")
-let table=document.getElementById("book-list")
+
 
 
 function getBookDetails(){
 	if(title.value=="" ||author.value=="" ||isbn.value==""){
 		return;
 	}
-	let tr=tbody.insertRow();
+	let tr=tbody.insertRow(0);
 	let deleteButton=document.createElement("button");
 	deleteButton.id="delete"
 	deleteButton.textContent="delete";

@@ -14,19 +14,17 @@ function getBookDetails(){
 	let deleteButton=document.createElement("button");
 	deleteButton.id="delete"
 	deleteButton.textContent="delete";
-	let td1=document.createElement("td");
+	let td1=tr.insertCell();
 	td1.className="tabledata"
-	let td2=document.createElement("td");
+	let td2=tr.insertCell();
 	td2.className="tabledata"
-	let td3=document.createElement("td")
-	td3.className="tabledata";
+	let td3=tr.insertCell();
+	td3.className="tabledata"
+	let td4=tr.insertCell();
+	td4.appendChild(deleteButton);
 	td1.textContent=title.value;
 	td2.textContent=author.value;
 	td3.textContent=isbn.value;
-	tr.appendChild(td1);
-	tr.appendChild(td2);
-	tr.appendChild(td3);
-	tr.appendChild(deleteButton);
 	title.value="";
 	author.value="";
 	isbn.value=""

@@ -1,1 +1,54 @@
 /*  your css code here. If applicable */
+.table{
+	margin-top:10px;
+	width:600px;
+}
+table,th,td{
+	border-collapse:collapse;
+	/* border:1px solid black; */
+}
+th{
+	border-bottom:2px solid black;
+}
+thead{
+	width:600px
+}
+.tabledata{
+	color:green;
+	padding-left:60px;
+	width:800px;
+	margin:10px;
+}
+
+.form-group{
+	display:flex;
+	flex-direction:column;
+	gap:5px;
+}
+#submit{
+	width:90px;
+	height:30px;
+	padding:5px;
+	background-color:blue;
+	color:white;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+}
+#delete{
+	width:90px;
+	height:30px;
+	padding:5px;
+	background-color:red;
+	color:white;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+	margin-top:2px;
+}
+.form-group>input{
+	padding:10px;
+	border:1px solid black;
+	border-radius:5px;
+	outline:none;
+}

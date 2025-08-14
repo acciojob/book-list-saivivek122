@@ -10,7 +10,7 @@ function getBookDetails(){
 	if(title.value=="" ||author.value=="" ||isbn.value==""){
 		return;
 	}
-	let tr=table.insertRow();
+	let tr=tbody.insertRow();
 	let deleteButton=document.createElement("button");
 	deleteButton.id="delete"
 	deleteButton.textContent="delete";
